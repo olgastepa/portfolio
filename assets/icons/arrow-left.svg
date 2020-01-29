@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="15px" height="20px" viewBox="0 0 15 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <title>arrow</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="wireframes" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Project-description" transform="translate(-1140.000000, -2475.000000)" fill-rule="nonzero" fill="#000000">
+            <g id="Group-2" transform="translate(1140.000000, 2475.000000)">
+                <path d="M13.3118971,19.0134716 C13.5048232,19.1459696 13.7459807,19.2122186 14.011254,19.2122186 C14.2765273,19.2122186 14.5176849,19.1459696 14.7106109,19.0134716 C15.096463,18.7484754 15.096463,18.3178567 14.7106109,18.0528606 L2.41157556,9.60610932 L14.7106109,1.15935802 C15.096463,0.894361903 15.096463,0.463743209 14.7106109,0.198747089 C14.3247588,-0.0662490298 13.6977492,-0.0662490298 13.3118971,0.198747089 L0.289389068,9.12580386 C-0.0964630225,9.39079998 -0.0964630225,9.82141867 0.289389068,10.0864148 L13.3118971,19.0134716 L13.3118971,19.0134716 Z" id="arrow"></path>
+            </g>
+        </g>
+    </g>
+</svg>

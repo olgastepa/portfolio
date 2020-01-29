@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Cochin' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Frank Ruhl Libre' rel='stylesheet'>
+    <title>Home</title>
+</head>
+<body class="main-page">
+    
+    <!--
+    <nav>
+        <ul class="nav-list">
+            <a href="index.html"><li class="nav-items active">Home</li></a>
+            <a href="about.html"><li class="nav-items">About</li></a>
+            <a href="projects.html"><li class="nav-items">Projects</li></a>
+            <a href="contact.html"><li class="nav-items">Contacts</li></a>
+        </ul>
+    </nav>
+    -->
+    <header>
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="nav-links">
+                <a href="index.html" class="active">Home</a>
+                <a href="about.html">About</a>
+                <a href="projects.html">Projects</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <div class="lang-container">
+                <a href="" class="active">English</a>
+                <a href="" class="">Русский</a>
+            </div>
+          </div>
+          <img src="assets/logo.svg" style="cursor:pointer" onclick="openNav()" class="menu-icon">&#9776;>
+    </header>
+  
+
+    <div class="main-container flex-center">
+        <img src="assets/profile-pic.JPG" alt="" class="main-img">
+        <div class="maint-text">
+            <h1 class="heading red-heading">Hello!</h1>
+            <h2 class="subheading center red-heading">My name is Olga Stepanova and I'm a digital designer.</h2>
+        </div>
+    </div>
+
+    <footer>
+            <div class="footer-info-container">
+                <a href="https://www.instagram.com/olgastepanova.94/" target="_blank" class=""><img src="assets/icons/instagram.svg" alt="" class="footer-info-img"></a>
+                <a href="https://www.facebook.com/osdigitaldesign" target="_blank" class=""><img src="assets/icons/facebook.svg" alt="" class="footer-info-img"></a>
+                <a href="mailto:olgastepanova.1994@gmail.com" class=""><img src="assets/icons/email.svg" alt="" class="footer-info-img"></a>
+            </div>
+            <p class="footer-text"> &copy; All rights are reserved  2020</p>
+    </footer>
+</body>
+<script>
+    function openNav() {
+        document.getElementById("mySidenav").style.width = "40%";
+    }
+    
+    function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+    }
+    </script>
+</html>

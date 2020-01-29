@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Cochin' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Frank Ruhl Libre' rel='stylesheet'>
+    <title>Contact me</title>
+</head>
+<body class="main-page contact-bg">
+    <header>
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="projects.html">Projects</a>
+                <a href="contact.html" class="active">Contact</a>
+            </div>
+            <div class="lang-container">
+                <a href="" class="active">English</a>
+                <a href="" class="">Русский</a>
+            </div>
+            </div>
+            <img src="assets/logo.svg" style="cursor:pointer" onclick="openNav()" class="menu-icon">&#9776;>
+    </header>
+    <div class="contact-container">
+        <div class="contact-border">
+        <a href="tel:79213722392" class="contact-box">
+            <img src="assets/icons/phone.svg" alt="" class="contact-img">
+            <p class="contact-text">+7-921-372-23-92</p>
+        </a>
+
+        <a href="mailto:olgastepanova.1994@gmail.com" class="contact-box">
+            <img src="assets/icons/email.svg" alt="" class="contact-img">
+            <p class="contact-text">olgastepanova.1994@gmail.com</p>
+        </a>
+
+        <a href="https://www.instagram.com/olgastepanova.94/" target="_blank" class="contact-box">
+            <img src="assets/icons/instagram.svg" alt="" class="contact-img">
+            <p class="contact-text">/olgastepanova.94</p>
+        </a>
+
+        <a href="https://www.facebook.com/osdigitaldesign" target="_blank" class="contact-box">
+            <img src="assets/icons/facebook.svg" alt="" class="contact-img">
+            <p class="contact-text">/osdigitaldesign</p>
+        </a>
+
+        <a href="https://www.behance.net/olgastepanova" target="_blank" class="contact-box">
+            <img src="assets/icons/behance.svg" target="_blank" alt="" class="contact-img">
+            <p class="contact-text">/olgastepanova</p>
+        </a>
+
+       <!-- <a href="https://www.linkedin.com/in/olga-stepanova-24a30ba9/?originalSubdomain=uk" class="contact-box">
+            <img src="assets/icons/linkedin.svg" target="_blank" alt="" class="contact-img">
+            <p class="contact-text">/will be added soon</p>
+        </a> -->
+    </div>
+    </div>
+
+    <footer>
+        <div class="footer-info-container">
+            <a href="https://www.instagram.com/olgastepanova.94/" target="_blank" class=""><img src="assets/icons/instagram.svg" alt="" class="footer-info-img"></a>
+            <a href="https://www.facebook.com/osdigitaldesign" target="_blank" class=""><img src="assets/icons/facebook.svg" alt="" class="footer-info-img"></a>
+            <a href="mailto:olgastepanova.1994@gmail.com" class=""><img src="assets/icons/email.svg" alt="" class="footer-info-img"></a>
+        </div>
+        <p class="footer-text"> &copy; All rights are reserved  2020</p>
+</footer>
+</body>
+<script>
+    function openNav() {
+        document.getElementById("mySidenav").style.width = "40%";
+    }
+    
+    function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+    }
+    </script>
+</html>

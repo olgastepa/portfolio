@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Cochin' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Playfair Display' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <title>Web design</title>
+</head>
+<body>
+    <header>
+        <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="projects.html" class="active">Projects</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <div class="lang-container">
+                <a href="" class="active">English</a>
+                <a href="" class="">Русский</a>
+            </div>
+        </div>
+            <img src="assets/logo.svg" style="cursor:pointer" onclick="openNav()" class="menu-icon">&#9776;>
+    </header>
+
+    <div class="image-text flex-center atm">
+        <h1 class="heading">App design</h1>
+    </div>
+    
+    <div class="project-name">
+        <div class="project-num">05</div>
+        <h2 class="subheading">App design for ATM Milano</h2>
+    </div>
+
+    <p class="body-text">This app design project is a part of the master course at Scuola Politecnica di Milano. The main idea of this app design is to redesign the current mobile app. This project includes the research stage, testing, UX and UI design. ATM Milano is a public transport company in Milan, Italy. This app works for all the public transport in Milan. </p>
+
+    <h2 class="subheading">The idea</h2>
+    <p class="body-text">The goal of this mobile app is to redesign the current mobile app inventing new functions and make the interface user-friendly. The new mobile app has been designed, which gives users a new travel experience. Our mobile app allows users to buy tickets with different payment methods, see the route, check the availability of a ticket (it is still valid or not), repurchase previous tickets, buy travel cards (cards more unlimited use for a student, elderly people, etc). Also, the app helps with navigation which means it will give you the best route on how to get from point A to point B and will tell you which type of ticket you’ll need for it.</p>
+
+    <div class="keywords-container">
+        <h2 class="subheading">Keywords</h2>
+        <div class="keywords-box">
+            <p class="body-text"><em>Simplicity</em></p>
+            <p class="body-text"><em>User-frienly</em></p>
+            <p class="body-text"><em>New</em></p>
+        </div>
+    </div>
+    <h2 class="subheading">Font family</h2>
+    <div class="font-box">
+        <div class="font-family">
+            <h3 class="font-name bold font-montserrat">montserrat</h3>
+            <p class="font-example font-montserrat">QWERTYUIOP</p>
+            <p class="font-example font-montserrat">ASDFGHJKL</p>
+            <p class="font-example font-montserrat">ZXCVBNM</p>
+            <p class="font-example font-montserrat">1234567890</p>
+        </div>
+    </div>
+
+    <h2 class="subheading">Colors</h2>
+    <div class="colors-container">
+        <div class="color-box">
+            <div class="color color-one-atm"></div>
+            <h5 class="color-name">#F5A42D</h5>
+        </div>
+
+        <div class="color-box">
+            <div class="color color-two-atm"></div>
+            <h5 class="color-name">#F93A3B</h5>
+        </div>
+
+        <div class="color-box">
+            <div class="color color-three-atm"></div>
+            <h5 class="color-name">#4EB2F9</h5>
+        </div>
+
+        <div class="color-box">
+            <div class="color color-four-atm"></div>
+            <h5 class="color-name">#274279</h5>
+        </div>
+
+    </div>
+
+    <h2 class="subheading">Tools</h2>
+    <div class="tools-box">
+        <img src="assets/icons/sketch.png" alt="" class="tools-img">
+        <img src="assets/icons/invision.png" alt="" class="tools-img">
+        <img src="assets/icons/balsamique.png" alt="" class="tools-img">
+    </div>
+
+    <!-- SLIDESHOW -->
+    <h2 class="subheading">Image gallery</h2>
+    <div class="slider-box">
+      
+            <div class="w3-content">
+
+              <div class="card-container">
+                <img class="mySlides" src="assets/app-design/home.png">
+                <article class="main-info">
+                  <h2 class="subheading">Logo & home page</h2>
+                  <p class="body-text">There is a logo of the client and the menu page</p>
+                </article>
+              </div>
+      
+              <div class="card-container">
+                <img class="mySlides" src="assets/app-design/menu.png">
+                <article class="main-info">
+                  <h2 class="subheading">Menu</h2>
+                  <p class="body-text">The menu page is designed accordingly to the main colors and new branding idea of the app. This page has a user-friendly interface which makes the app easy to use people with a wide range of age. It has six major sections and on the top right corner, there is an icon for saved tickets. </p>
+                </article>
+              </div>
+      
+              <div class="card-container">
+                <img class="mySlides" src="assets/app-design/ticket.png">
+                <article class="main-info">
+                  <h2 class="subheading">Ticket</h2>
+                  <p class="body-text">The ticket page has a QR code on the online ticket. On this page, users have a choice. There is an option to scan the ticket when you start using public transport. Also, you can sign up to save this ticket for later. </p>
+                </article>
+              </div>
+      
+              <div class="card-container">
+                <img class="mySlides" src="assets/app-design/travel-card.png">
+                <article class="main-info">
+                  <h2 class="subheading">Travel card</h2>
+                  <p class="body-text">A travel card is a card for young, retired people, etc. The online card is shown with client details. In the app, the travel card is available online. On this page, users can make the prepayment for the next month and check how many days are left. </p>
+                </article>
+              </div>
+
+              <div class="card-container">
+                <img class="mySlides" src="assets/app-design/my-trips.png">
+                <article class="main-info">
+                  <h2 class="subheading">My trips</h2>
+                  <p class="body-text">My trips are created to make users experience much easier. There is an option to re-purchase expired tickets which were used before. Also, users can see which tickets are available right now. </p>
+                </article>
+              </div>
+
+              <div class="card-container">
+                <img class="mySlides" src="assets/app-design/checkout.png">
+                <article class="main-info">
+                  <h2 class="subheading">Checkout</h2>
+                  <p class="body-text">The checkout page is a part of the payment process. On this page, there are four options for how it is possible to buy a ticket. There are SMS, PayPal, credit card and apple pay. </p>
+                </article>
+              </div>
+
+            </div>
+            
+            <div class="w3-center">
+              <img src="assets/icons/arrow-left.svg" onclick="plusDivs(-1)" class="arrow">
+              <img src="assets/icons/arrow-right.svg" onclick="plusDivs(1)" class="arrow">
+            </div>
+          </div>  
+        </div>
+
+        <div class="buttons">
+          <a href="visualdesign.html" class="next-page">Previous project</a>
+          <a href="vhs.html" class="next-page">Next project</a>
+      </div>
+
+    <footer>
+        <div class="footer-info-container">
+            <a href="https://www.instagram.com/olgastepanova.94/" target="_blank" class=""><img src="assets/icons/instagram.svg" alt="" class="footer-info-img"></a>
+            <a href="https://www.facebook.com/osdigitaldesign" target="_blank" class=""><img src="assets/icons/facebook.svg" alt="" class="footer-info-img"></a>
+            <a href="mailto:olgastepanova.1994@gmail.com" class=""><img src="assets/icons/email.svg" alt="" class="footer-info-img"></a>
+        </div>
+        <p class="footer-text"> &copy; All rights are reserved  2020</p>
+    </footer>
+</body>
+<script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "50%";
+        }
+        
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+</script>
+
+<!--SLIDESHOW SCRIPT-->
+<script>
+        var slideIndex = 1;
+        showDivs(slideIndex);
+        
+        function plusDivs(n) {
+          showDivs(slideIndex += n);
+        }
+        
+        function currentDiv(n) {
+          showDivs(slideIndex = n);
+        }
+        
+        function showDivs(n) {
+          var i;
+          var x = document.getElementsByClassName("card-container");
+          var dots = document.getElementsByClassName("demo");
+          if (n > x.length) {slideIndex = 1}    
+          if (n < 1) {slideIndex = x.length}
+          for (i = 0; i < x.length; i++) {
+             x[i].style.display = "none";  
+          }
+          for (i = 0; i < dots.length; i++) {
+             dots[i].className = dots[i].className.replace(" w3-red", "");
+          }
+          x[slideIndex-1].style.display = "flex";  
+          dots[slideIndex-1].className += " w3-red";
+        }
+  
+        function myFunction() {
+      var x = document.getElementById("hamburger");
+      if (x.className === "mobile-menu-icon") {
+          x.className += " responsive";
+      } else {
+          x.className = "mobile-menu-icon";
+      }
+  }
+</script>
+</html>
