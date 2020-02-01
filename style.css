@@ -540,6 +540,12 @@ a {
     font-family: cochin;
     letter-spacing: 1pt;
 }
+.next-page:hover {
+    background-color: var(--main-red);
+    color: white;
+    transition: .5s ease-in;
+    transition: .5s ease-out;
+}
 .webdesign-stuio {
     background-image: linear-gradient(to right, #BEAFFE , #6469D2);;
 }
@@ -760,7 +766,7 @@ span {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: var(--main-orange);
+    background-image: linear-gradient(to bottom, var(--main-orange), var(--main-red));
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
@@ -806,6 +812,9 @@ span {
 }
 .sidenav a.active {
 color: var(--main-red);
+}
+.active-lang {
+    color: var(--main-yellow) !important;
 }
 
 .logo {
