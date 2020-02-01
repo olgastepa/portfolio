@@ -743,6 +743,7 @@ header {
     z-index: 1;
 }
 span {
+    border: 2px solid red;
     color: #a30b37; 
     }
 .menu-icon {
@@ -751,6 +752,7 @@ span {
     left: 5px;
     z-index: 1;
     width: 50px;
+    width: 100px;
     }
 .sidenav {
     height: 100%;
