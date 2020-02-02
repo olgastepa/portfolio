@@ -750,6 +750,7 @@ header {
     height: 100vh;
     position: fixed;
     top: 0;
+    left: 0;
     z-index: 1;
 }
 span {
@@ -911,8 +912,6 @@ color: var(--main-red);
     }
     .sidenav {
         width: 50%;
-        top: -10px;
-        left: -10px;
     }
     .main-img {
         margin-bottom: 30px;
