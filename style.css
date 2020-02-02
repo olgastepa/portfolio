@@ -164,6 +164,7 @@ td {
     width: 100vw;
     height: 100vh;
     background-attachment: fixed;
+    z-index: -1;
 }
 .bg-img-one {
     background-image: url(assets/bg-1.png);
