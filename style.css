@@ -911,6 +911,8 @@ color: var(--main-red);
     }
     .sidenav {
         width: 50%;
+        top: -10px;
+        left: -10px;
     }
     .main-img {
         margin-bottom: 30px;
