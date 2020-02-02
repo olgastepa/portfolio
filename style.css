@@ -91,7 +91,12 @@ body {
     color: white;
     font-size: 12pt !important;
 }
-
+.lang-container a:hover {
+    color: var(--main-orange) !important;
+}
+.lang-container .active {
+    color: var(--main-orange) !important;  
+}
 .logo {
     width: 70px;
     height: 70px;
@@ -635,7 +640,7 @@ a {
 }
 .contact-box {
     background-color: white;
-    width: 235px;
+    width: 240px;
     height: 140px;
     border-radius: 4px;
     display: flex;
