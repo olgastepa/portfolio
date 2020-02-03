@@ -307,7 +307,6 @@ td {
     top: 0;
     height: 350px;
     width: auto;
-
 }
 
 .project-container {
@@ -329,7 +328,6 @@ td {
     flex-direction: column;
     margin: 10px;
     position: static;
-
 }
 .project-box:hover {
     background-color: var(--main-yellow);
@@ -745,14 +743,13 @@ em {
     font-family: 'Chakra Petch';
 }
 
-header {
+/*header {
     width: 100vw;
     height: 100vh;
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 1;
-}
+}*/
 span {
     color: #a30b37; 
     }
@@ -910,9 +907,6 @@ color: var(--main-red);
     body {
         overflow-x: hidden;
     }
-    .sidenav {
-        width: 50%;
-    }
     .main-img {
         margin-bottom: 30px;
     }
@@ -941,11 +935,3 @@ color: var(--main-red);
     }
 }
 
-/*TEST*/
-.logo-test {
-    width: 60px;
-    height: 60px;
-    display: block;
-    top: 0;
-    position: absolute;
-}
