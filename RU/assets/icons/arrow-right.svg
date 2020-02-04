@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="15px" height="20px" viewBox="0 0 15 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <title>arrow</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="wireframes" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Project-description" transform="translate(-1185.000000, -2475.000000)" fill-rule="nonzero" fill="#000000">
+            <g id="Group-2" transform="translate(1140.000000, 2475.000000)">
+                <path d="M58.3118971,19.0134716 C58.5048232,19.1459696 58.7459807,19.2122186 59.011254,19.2122186 C59.2765273,19.2122186 59.5176849,19.1459696 59.7106109,19.0134716 C60.096463,18.7484754 60.096463,18.3178567 59.7106109,18.0528606 L47.4115756,9.60610932 L59.7106109,1.15935802 C60.096463,0.894361903 60.096463,0.463743209 59.7106109,0.198747089 C59.3247588,-0.0662490298 58.6977492,-0.0662490298 58.3118971,0.198747089 L45.2893891,9.12580386 C44.903537,9.39079998 44.903537,9.82141867 45.2893891,10.0864148 L58.3118971,19.0134716 L58.3118971,19.0134716 Z" id="arrow" transform="translate(52.500000, 9.606109) rotate(180.000000) translate(-52.500000, -9.606109) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Cochin' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Frank Ruhl Libre' rel='stylesheet'>
+    <title>Проекты</title>
+</head>
+<body>
+    <header>
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="nav-links">
+                <a href="index.html">Главная</a>
+                <a href="about.html">Обо мне</a>
+                <a href="projects.html" class="active">Проекты</a>
+                <a href="contact.html">Контакты</a>
+            </div>
+            <div class="lang-container">
+                <a href="" class="">English</a>
+                <a href="" class="active active-lang">Русский</a>
+            </div>
+          </div>
+          <span onclick="openNav()" class="menu-icon"><img src="assets/logo.svg" alt="" class="privateLogo"></span>
+    </header>
+
+     <div class="image-text flex-center bg-img-five">
+        <h1 class="heading">Проекты</h1>
+    </div>
+    
+    <div class="project-container">
+        <a href="webdesign.html" class="project-box">
+            <div class="project-number">01</div>
+            <img src="assets/web-design.jpg" alt="" class="project-img">
+            <h4 class="project-title">Веб дизайн</h4>
+        </a>    
+
+        <a href="webdesign-studio.html" class="project-box">
+                <div class="project-number">02</div>
+                <img src="assets/web-design-studio.jpeg" alt="" class="project-img">
+                <h4 class="project-title">Веб дизайн</h4>
+        </a> 
+
+        <a href="webdesign-scedis.html" class="project-box">
+                <div class="project-number">03</div>
+                <img src="assets/web-design-agency.jpeg" alt="" class="project-img">
+                <h4 class="project-title">Веб дизайн</h4>
+        </a>
+
+        <a href="visualdesign.html" class="project-box">
+                <div class="project-number">04</div>
+                <img src="assets/visual-design.jpeg" alt="" class="project-img">
+                <h4 class="project-title">Визуальный дизайн</h4>
+        </a>
+
+        <a href="appdesign.html" class="project-box">
+                <div class="project-number">05</div>
+                <img src="assets/app-design.jpeg" alt="" class="project-img">
+                <h4 class="project-title">Дизайн приложения</h4>
+        </a>
+
+        <a href="vhs.html" class="project-box">
+                <div class="project-number">06</div>
+                <img src="assets/vhs-cover.001.jpeg" alt="" class="project-img">
+                <h4 class="project-title">Веб дизайн</h4>
+        </a>
+
+        <a href="illustrations.html" class="project-box">
+                <div class="project-number">07</div>
+                <img src="assets/illustrations.jpeg" alt="" class="project-img">
+                <h4 class="project-title">Иллюстрации</h4>
+        </a>
+</div>
+<footer>
+    <div class="footer-info-container">
+        <a href="https://www.instagram.com/olgastepanova.94/" target="_blank" class=""><img src="assets/icons/instagram.svg" alt="" class="footer-info-img"></a>
+        <a href="https://www.facebook.com/osdigitaldesign" target="_blank" class=""><img src="assets/icons/facebook.svg" alt="" class="footer-info-img"></a>
+        <a href="mailto:olgastepanova.1994@gmail.com" class=""><img src="assets/icons/email.svg" alt="" class="footer-info-img"></a>
+    </div>
+    <p class="footer-text"> &copy; Все права зерегистрированы 2020</p>
+</footer>
+</body>
+<script>
+    function openNav() {
+        document.getElementById("mySidenav").style.width = "40%";
+    }
+    
+    function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+    }
+</script>
+</html>
